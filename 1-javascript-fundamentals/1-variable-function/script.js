@@ -1,19 +1,19 @@
-// 8. contoh enkapsulasi data
-function counter() {
-  let angka = 0;
-  function tambahAngka() {
-    angka++;
-    return console.log(angka);
-  }
-  return tambahAngka;
-}
+// // 8. contoh enkapsulasi data
+// function counter() {
+//   let angka = 0;
+//   function tambahAngka() {
+//     angka++;
+//     return console.log(angka);
+//   }
+//   return tambahAngka;
+// }
 
-angka = 100;
+// angka = 100;
 
-let counterBaru = counter();
-counterBaru();
-counterBaru();
-counterBaru();
+// let counterBaru = counter();
+// counterBaru();
+// counterBaru();
+// counterBaru();
 
 // 7. contoh simple closure
 // function x() {
@@ -82,11 +82,11 @@ counterBaru();
 // console.log(kuadrat1);
 // console.log(kuadrat2);
 
-// 1. contoh execution context
+// // 1. contoh execution context
 // halo();
 // console.log(x);
 
 // var x = 10;
 // function halo() {
-//   console.log('Hello World!');
+//   console.log("Hello World!");
 // }
